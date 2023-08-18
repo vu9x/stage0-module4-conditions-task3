@@ -18,7 +18,7 @@ public class AlphabeticCharacters {
         int vowelO = 'O';
         int vowelU = 'U';
 
-        if (intSymbol > vowelA && intSymbol < Z || intSymbol > vowela && intSymbol < Z) {
+        if (intSymbol > vowelA && intSymbol < Z || intSymbol > vowela && intSymbol < z) {
             if (intSymbol == vowela || intSymbol == vowele || intSymbol == voweli || intSymbol == vowelo || intSymbol == vowelu
             || intSymbol == vowelA || intSymbol == vowelE || intSymbol == vowelI || intSymbol == vowelO || intSymbol == vowelU) {
                 System.out.println("Vowel");

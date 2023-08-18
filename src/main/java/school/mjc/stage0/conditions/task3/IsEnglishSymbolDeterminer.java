@@ -8,7 +8,7 @@ public class IsEnglishSymbolDeterminer {
         int A = 'A';
         int Z = 'Z';
 
-        if (intSymbol > A && intSymbol < Z || intSymbol > a && intSymbol < Z) {
+        if (intSymbol >= A && intSymbol <= Z || intSymbol >= a && intSymbol <= z) {
             System.out.println("English");
         } else {
             System.out.println("Non English");
